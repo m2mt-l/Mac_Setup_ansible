@@ -15,3 +15,6 @@ packages:
   - { name: openssl, state: present }
   - { name: jq, state: present }
   - { name: unar, state: present }
+  - { name: iperf, state: present }
+  - { name: hping, state: present }
+  - { name: httping, state: present }
