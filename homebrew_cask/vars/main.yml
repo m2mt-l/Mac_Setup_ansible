@@ -13,3 +13,4 @@ packages:
   - { name: snip, state: present }
   - { name: wireshark, state: present }
   - { name: rectangle, state: present }
+  - { name: sequel-ace, state: present }
