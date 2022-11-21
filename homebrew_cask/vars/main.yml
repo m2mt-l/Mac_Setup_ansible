@@ -10,3 +10,4 @@ packages:
   - { name: postman, state: present }
   - { name: clipy, state: present }
   - { name: snip, state: present }
+  - { name: wireshark, state: present }
