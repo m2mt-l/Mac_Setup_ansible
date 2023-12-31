@@ -2,15 +2,15 @@
 # file: ~/setup/roles/homebrew_cask/vars/main.yml
 
 packages:
-
-  - { name: alfred, state: present }
-  - { name: iterm2, state: present }
-  - { name: google-japanese-ime, state: present }
-  - { name: visual-studio-code, state: present }
-  - { name: coteditor, state: present }
-  - { name: postman, state: present }
-  - { name: clipy, state: present }
-  - { name: snip, state: present }
-  - { name: wireshark, state: present }
-  - { name: rectangle, state: present }
-  - { name: sequel-ace, state: present }
+    - { name: alfred, state: present }
+    - { name: iterm2, state: present }
+    - { name: google-japanese-ime, state: present }
+    - { name: visual-studio-code, state: present }
+    - { name: coteditor, state: present }
+    - { name: postman, state: present }
+    - { name: clipy, state: present }
+    - { name: snip, state: present }
+    - { name: wireshark, state: present }
+    - { name: rectangle, state: present }
+    - { name: sequel-ace, state: present }
+    - { name: obsidian, state: present }
