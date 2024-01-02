@@ -2,19 +2,20 @@
 # file: ~/setup/roles/homebrew/vars/main.yml
 
 taps:
-  - homebrew/cask
-  - homebrew/cask-versions
-  - homebrew/cask-fonts
-  - homebrew/core
+    - homebrew/cask
+    - homebrew/cask-versions
+    - homebrew/cask-fonts
+    - homebrew/core
 
 packages:
-  - { name: git, state: present }
-  - { name: wget, state: present }
-  - { name: vim, state: present }
-  - { name: tree, state: present }
-  - { name: openssl, state: present }
-  - { name: jq, state: present }
-  - { name: unar, state: present }
-  - { name: iperf, state: present }
-  - { name: hping, state: present }
-  - { name: httping, state: present }
+    - { name: git, state: present }
+    - { name: wget, state: present }
+    - { name: vim, state: present }
+    - { name: tree, state: present }
+    - { name: openssl, state: present }
+    - { name: jq, state: present }
+    - { name: unar, state: present }
+    - { name: iperf, state: present }
+    - { name: hping, state: present }
+    - { name: httping, state: present }
+    - { name: nghttp2, state: present }
